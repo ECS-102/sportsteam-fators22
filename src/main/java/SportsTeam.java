@@ -2,30 +2,66 @@ public class SportsTeam {
 
 /*Create  5 instance variables :a String representing the Team’s name, an int representing the number of games played, 
 an int representing the games won and an int representing the games lost and an int representing the number of ties.*/
- 
-  
-  
-  
-  
-/*Write two different constructors for this class.  The first constructor should have a single parameter representing 
-the team name and all other instance variables should be initialized to zero.  The second constructor should have 5 parameters
-representing a value to initialize each of the instance variables to.*/
-  
-  
-  
-  
+    private String teamName;
+    private int plays;
+    private int wins;
+    private int losses;
+    private int ties;
 
-// Write a method called getWinningPercentage().  This method should return an int representing the percentage of games won.
+  //   public SportsTeam(String teamName, int plays, int wins, int losses, int ties) {
+  //       this.teamName = teamName;
+  //       this.plays = plays;
+  //       this.wins = wins;
+  //       this.losses = losses;
+  //      this.ties =ties;
+  // }
+   public SportsTeam(String teamName) {
+        this.teamName = teamName;
+        this.plays = 0;
+        this.wins = 0;
+        this.losses = 0;
+       this.ties =0;
+  }
 
-// Write five separate "getters" that allow access to the class instance variables.
+	public String getName() {
+		return teamName;
+	}
 
-/*Write a void method called playGame() that takes a String as a parameter.  
-  A "W" should increment the games won, an "L" should increment the games lost and any other String
-    should increment the games tied*/
+	public void setName(String teamName) {
+		this.teamName = teamName;
+	}
 
-//Write a toString() method that returns a String with all of the stats for a team.
-  
-  
+	public int getPlays() {
+		return plays;
+	}
+
+	public void setPlays(int plays) {
+		this.plays = plays;
+	}
+
+	public int getWins() {
+		return wins;
+	}
+
+	public void setWins(int wins) {
+		this.wins = wins;
+	}
+
+	public int getLosses() {
+		return losses;
+	}
+
+	public void setLosses(int losses) {
+		this.losses = losses;
+	}
+
+	public int getTies() {
+		return ties;
+	}
+
+	public void setTies(int ties) {
+		this.ties = ties;
+	}
   
   
 }
