@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9616751&assignment_repo_type=AssignmentRepo)
 SportsTeam superclass
 
 1. Create a class called SportsTeam.  This class should include 5 instance variables :a String representing the Team’s name, an int representing the number of games played, an int representing the games won and an int representing the games lost and an int representing the number of ties.
