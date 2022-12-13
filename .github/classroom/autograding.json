@@ -3,7 +3,7 @@
     {
       "name": "Constructor",
       "setup": "mvn compile",
-      "run": "mvn -Dtest=SportsTest#Should_call_Constructor test",
+      "run": "mvn test",
       "input": "",
       "output": "",
       "comparison": "included",
